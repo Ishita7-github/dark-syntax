@@ -1,0 +1,24 @@
+# Virtual environment
+venv311/
+venv/
+.venv/
+env/
+
+# Environment variables — NEVER upload API keys!
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files — too large for git
+data/
+
+# Audit logs
+audit_*.json
+
+# IDE
+.vscode/
+.idea/
